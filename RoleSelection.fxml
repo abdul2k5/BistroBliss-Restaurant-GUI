@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bistrobliss.RoleSelection">
+   <children>
+      <ImageView fx:id="LoginImageView" fitHeight="400.0" fitWidth="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BistroBliss.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="LoginText" layoutX="422.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to BistroBliss! An Arab style restaurant" wrappingWidth="140.33673095703125" />
+      <Button fx:id="UserButton" layoutX="522.0" layoutY="153.0" mnemonicParsing="false" text="User" />
+      <Button fx:id="AdminButton" layoutX="433.0" layoutY="153.0" mnemonicParsing="false" text="Admin" />
+      <Text fx:id="RoleText" layoutX="443.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please select a role" />
+   </children>
+</AnchorPane>
